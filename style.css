@@ -215,6 +215,7 @@ a:hover {
     align-items: center;
     justify-content: space-evenly;
     width: 90%;
+    margin-bottom: 20px;
 }
 
 .card {
@@ -240,6 +241,11 @@ a:hover {
     font-family: sans-serif;
     letter-spacing: 2px;
     color: black
+}
+
+.links-pages {
+    display: flex;
+    justify-content: space-between;
 }
 
 .card-wrapper {
@@ -350,4 +356,10 @@ a:hover {
 
     }
 
+}
+
+/* LINK PAGES */
+
+.right h3 {
+    text-align: right;
 }
